@@ -251,23 +251,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &388087276 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1304470224173152, guid: 79be510a08f0d664daa589b0a7802eb6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1459670746}
---- !u!65 &388087283
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 388087276}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 13.413991, y: 37.831642, z: 13.413995}
-  m_Center: {x: 0.0000009536745, y: 18.915821, z: 0.0000009536745}
 --- !u!1 &743090817
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,6 +364,26 @@ Prefab:
     - target: {fileID: 4059857710710868, guid: 79be510a08f0d664daa589b0a7802eb6, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 114469212018613962, guid: 79be510a08f0d664daa589b0a7802eb6,
+        type: 2}
+      propertyPath: mainThrust
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 54255344836150528, guid: 79be510a08f0d664daa589b0a7802eb6,
+        type: 2}
+      propertyPath: m_Mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 54255344836150528, guid: 79be510a08f0d664daa589b0a7802eb6,
+        type: 2}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64352258107096338, guid: 79be510a08f0d664daa589b0a7802eb6,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 79be510a08f0d664daa589b0a7802eb6, type: 2}
